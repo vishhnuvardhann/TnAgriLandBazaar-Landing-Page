@@ -1531,6 +1531,17 @@ a:hover {
    RESPONSIVE — MOBILE (≤640px)
    ========================== */
 @media (max-width: 640px) {
+  /* --- Global Mobile Constraints --- */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  * {
+    max-width: 100%;
+    word-break: break-word;
+  }
+
   /* --- Global Mobile Spacing --- */
   :root {
     --space-section: clamp(3rem, 6vw, 5rem);
@@ -1538,13 +1549,24 @@ a:hover {
 
   .container {
     width: 92%;
+    max-width: 100vw;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* --- Hero Section --- */
   .hero {
     min-height: auto;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: var(--space-lg);
+  }
+
+  .hero__glow {
+    max-width: 100vw;
+    height: auto;
+    aspect-ratio: 1;
   }
 
   .hero__title {
@@ -1584,6 +1606,7 @@ a:hover {
     padding: 1rem 1.2rem !important;
     white-space: normal;
     line-height: 1.3;
+    box-sizing: border-box;
   }
 
   .hero__gain-box {
