@@ -12,6 +12,15 @@
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f59e0b'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='900' font-size='18' fill='%230a0e17'%3ETN%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="index.css" />
+  <style>
+    /* Prevent Flash of Un-translated Content (FOUC) */
+    html:not(.i18n-loaded) body {
+      opacity: 0;
+    }
+    body {
+      transition: opacity 0.3s ease-in;
+    }
+  </style>
 </head>
 <body>
 
@@ -245,6 +254,12 @@
           <h3 class="step-card__title" data-i18n="system.step6.title">Negotiation &amp; Closing Support</h3>
           <p class="step-card__desc" data-i18n="system.step6.desc">Full assistance to secure the best deal</p>
         </div>
+      </div>
+      
+      <div style="margin-top: 3rem; text-align: center;">
+        <a href="#hero-form" class="btn btn--primary btn--large" data-i18n="form.submit">
+          <span class="btn-icon">💬</span> Get the Report via WhatsApp
+        </a>
       </div>
     </div>
   </section>

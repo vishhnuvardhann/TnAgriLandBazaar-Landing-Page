@@ -100,6 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update html lang attribute
     document.documentElement.lang = lang;
+    
+    // Reveal body after translation to prevent FOUC
+    document.documentElement.classList.add('i18n-loaded');
   };
 
   // Wire up language toggles
