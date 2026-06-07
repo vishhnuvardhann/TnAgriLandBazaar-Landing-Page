@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (landType === 'agricultural') {
         landTypeLabel = currentLang === 'ta' ? 'விவசாய நிலம்' : 'Agriculture Land';
       } else if (landType === 'dry') {
-        landTypeLabel = currentLang === 'ta' ? 'தரிசு நிலம்' : 'Dry Land';
+        landTypeLabel = currentLang === 'ta' ? 'காலி நிலம்' : 'Vacant Land';
       }
 
       // Build WhatsApp message with form data (Localized!)

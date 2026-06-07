@@ -20,6 +20,10 @@ const TRANSLATIONS = {
   },
   
   // ─── Navigation ─────────────────────────────────
+  "nav.home": {
+    ta: "முகப்பு",
+    en: "Home"
+  },
   "nav.whyUs": {
     ta: "ஏன் நாம்",
     en: "Why Us"
@@ -43,12 +47,12 @@ const TRANSLATIONS = {
 
   // ─── Hero Section ───────────────────────────────
   "hero.badge": {
-    ta: "🌾 விவசாய & தரிசு நிலங்களுக்கான பிரத்யேக சேவை",
-    en: "🌾 Specializing in Agriculture & Dry Land"
+    ta: "🌾 விவசாய & காலி நிலங்களுக்கான பிரத்யேக சேவை",
+    en: "🌾 Specializing in Agriculture & Vacant Land"
   },
   "hero.title": {
-    ta: "உங்கள் விவசாய நிலம் அல்லது தரிசு நிலத்தை <span class=\"text-gradient\">சிறந்த சந்தை மதிப்பில்</span> விற்கவும்",
-    en: "Sell your Agriculture Land or Dry Land at the <span class=\"text-gradient\">best market value</span>"
+    ta: "உங்கள் விவசாய நிலம் அல்லது காலி நிலத்தை <span class=\"text-gradient\">சிறந்த சந்தை மதிப்பில்</span> விற்கவும்",
+    en: "Sell your Agriculture Land or Vacant Land at the <span class=\"text-gradient\">best market value</span>"
   },
   "hero.subtitle": {
     ta: "வாங்குபவர் இன்றி பல மாதங்கள் காத்திருக்க வேண்டாம். குறைந்த நேரத்தில், குறைந்த அலைச்சலுடன், சிறந்த சந்தை மதிப்பில் உங்கள் நிலத்திற்கு சரியான வாங்குபவர்களைக் கண்டறிய நாங்கள் உதவுகிறோம்.",
@@ -204,6 +208,10 @@ const TRANSLATIONS = {
     ta: "✔ தற்போதைய சந்தை மதிப்பு",
     en: "✔ Current market value"
   },
+  "report.item1b": {
+    ta: "✔ விலை பரிந்துரை",
+    en: "✔ Price recommendation"
+  },
   "report.item2": {
     ta: "✔ அதிக விலை பெற குறிப்புகள்",
     en: "✔ Tips to get a higher price"
@@ -219,8 +227,8 @@ const TRANSLATIONS = {
     en: "Who Is This Service For?"
   },
   "who.desc": {
-    ta: "✔ அனைத்து வகையான விவசாய மற்றும் தரிசு நில உரிமையாளர்கள்",
-    en: "✔ All types of Agriculture & Dry Land Owners"
+    ta: "✔ அனைத்து வகையான விவசாய மற்றும் காலி நில உரிமையாளர்கள்",
+    en: "✔ All types of Agriculture & Vacant Land Owners"
   },
 
   // ─── Why Us Section ─────────────────────────────
@@ -233,8 +241,8 @@ const TRANSLATIONS = {
     en: "TN AGRI LAND BAZAAR?"
   },
   "why.item1": {
-    ta: "✔ விவசாய மற்றும் தரிசு நிலங்களில் பிரத்யேக கவனம்",
-    en: "✔ Dedicated focus on Agriculture & Dry Land"
+    ta: "✔ விவசாய மற்றும் காலி நிலங்களில் பிரத்யேக கவனம்",
+    en: "✔ Dedicated focus on Agriculture & Vacant Land"
   },
   "why.item2": {
     ta: "✔ கட்டமைக்கப்பட்ட சந்தைப்படுத்தல் செயல்முறை",
@@ -295,8 +303,8 @@ const TRANSLATIONS = {
     en: "Agriculture Land"
   },
   "form.optionDry": {
-    ta: "தரிசு நிலம்",
-    en: "Dry Land"
+    ta: "காலி நிலம்",
+    en: "Vacant Land"
   },
   "form.submit": {
     ta: "WhatsApp மூலம் அறிக்கை பெறுக",
