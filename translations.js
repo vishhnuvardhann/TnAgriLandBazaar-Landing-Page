@@ -336,10 +336,7 @@ const TRANSLATIONS = {
   },
 
   // ─── Footer & Disclaimers ───────────────────────
-  "disclaimer.text": {
-    ta: "வரைவு — புரோக்கர் மதிப்பாய்வு தேவை. அனைத்து கமிஷன்களும் பேச்சுவார்த்தைக்குட்பட்டவை. உள்ளூர் சட்டங்கள்/TCPA ஐப் பின்பற்றவும்.",
-    en: "Draft — Broker Review Required. All commissions negotiable. Follow local laws/TCPA."
-  },
+
   "footer.copy": {
     ta: "© 2024–2026 டிஎன் அக்ரி லேண்ட் பஜார். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. | வேடசந்தூர், திண்டுக்கல் – 624 710, தமிழ்நாடு",
     en: "© 2024–2026 TN Agri Land Bazaar. All rights reserved. | Vedasandur, Dindigul – 624 710, Tamil Nadu"
