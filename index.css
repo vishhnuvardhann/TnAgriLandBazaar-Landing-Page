@@ -1538,10 +1538,7 @@ a:hover {
     width: 100%;
   }
 
-  * {
-    max-width: 100%;
-    word-break: break-word;
-  }
+
 
   /* --- Global Mobile Spacing --- */
   :root {
