@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
   revealElements.forEach(el => revealObserver.observe(el));
 
   // ─── Translation Engine ────────────────────────
-  let currentLang = localStorage.getItem('tn_agri_lang') || 'en';
+  let currentLang = localStorage.getItem('tn_agri_lang') || 'ta';
 
   const updateTranslations = (lang) => {
     document.querySelectorAll('[data-i18n]').forEach(el => {
