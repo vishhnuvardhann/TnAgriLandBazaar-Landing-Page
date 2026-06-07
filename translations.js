@@ -336,7 +336,10 @@ const TRANSLATIONS = {
   },
 
   // ─── Footer & Disclaimers ───────────────────────
-
+  "disclaimer.text": {
+    ta: "குறிப்பு — அனைத்து தரகுக் கட்டணங்களும் பேச்சு வார்த்தைக்கு உட்பட்டவை. உள்ளூர் சட்டங்களைப் பின்பற்றவும்.",
+    en: "Note — All brokerage fees are negotiable. Please follow local laws."
+  },
   "footer.copy": {
     ta: "© 2024–2026 டிஎன் அக்ரி லேண்ட் பஜார். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. | வேடசந்தூர், திண்டுக்கல் – 624 710, தமிழ்நாடு",
     en: "© 2024–2026 TN Agri Land Bazaar. All rights reserved. | Vedasandur, Dindigul – 624 710, Tamil Nadu"
